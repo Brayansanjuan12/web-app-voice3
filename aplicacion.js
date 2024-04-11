@@ -37,9 +37,9 @@ if (transcript.includes('cerrar') && ventanaAbierta) {
 }
 
 // Ir a una página específica
-if (transcript.includes('itp')) {
+if (transcript.includes('netflix')) {
    window.location.href = 'https://www.netflix.com/mx/';
-  console.log("Si Se Encontro La Palabra 'itp'...");
+  console.log("Si Se Encontro La Palabra 'netflix'...");
 }
 
 if (transcript.includes('chat')) {
